@@ -1,0 +1,17 @@
+- dir(Objeto_que_quiero_ver_que_atributos_y_metodos_tiene)
+
+-----------------------------------------------------------------------------------
+
+- isinstance() es un metodo para comprobar si un objeto es instancia de una clase determinada
+
+ejemplo:
+
+Mi_persona = Empelado() #siendo que empleado hereda la clase Persona(), entonces...
+
+print(isintance(Mi_persona, Persona())
+
+#Esto devuelve True, porque Mi_persona por el principio de sustitucion,
+#ahora distinto sería si en vez de Mi_persona = Empleado(), tenemo = Persona(),
+#ya no funciona igual
+
+-----------------------------------------------------------------------------------
